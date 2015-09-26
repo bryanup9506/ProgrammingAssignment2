@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) {
         z[i,j]=1
       }
       else{
-        z[i,j]=-0
+        z[i,j]=0
       }
     }
   }
